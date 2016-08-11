@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(myFragmentPagerAdapter);
 
 
+
+
         //将TabLayout和ViewPager绑定在一起，使双方各自的改变都能直接影响另一方，解放了开发人员对双方变动事件的监听
         mTabLayout.setupWithViewPager(mViewPager);
 
